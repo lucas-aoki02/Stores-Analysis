@@ -24,7 +24,7 @@ Essa visão integrada suporta decisões de planejamento, estoque, precificação
 - **AluraStoreBrasil.ipynb** — Notebook principal com toda a análise  
 - **Relatoria da Venda da Loja.pdf** — Relatório fornecido como anexo  
 - **README.md** — Documento explicativo  
-- **/dados** — (se aplicável) Bases carregadas via URLs  
+- **/dados** — Bases carregadas via URLs  
 
 ---
 
