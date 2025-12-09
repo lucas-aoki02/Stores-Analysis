@@ -1,43 +1,81 @@
-# 🛍️ Análise de Desempenho da Rede Alura Store
+# 📊 Análise de Vendas – Alura Store Brasil
 
-## 🎯 Objetivo do Desafio
+Este repositório contém uma análise exploratória das vendas de quatro lojas da **Alura Store Brasil**, realizada a partir de diferentes bases de dados contendo informações de preços, categorias, avaliações, produtos e fretes.  
+O objetivo é identificar padrões de desempenho, produtos mais e menos vendidos, comportamento dos clientes e fatores que influenciam o faturamento.
 
-Durante este desafio, meu objetivo é auxiliar o **Senhor João**, proprietário da rede **Alura Store**, a tomar uma decisão estratégica crucial: **qual das suas quatro lojas fictícias ele deve vender para iniciar um novo empreendimento?**
+---
 
-Para isso, eu realizarei uma análise aprofundada dos dados de vendas, desempenho e avaliações das quatro unidades. O foco principal é **identificar a loja com a menor eficiência e desempenho geral**, apresentando uma recomendação final clara e fundamentada nos dados.
+## 🎯 Objetivo da Análise
 
-## 💡 O que Eu Vou Praticar
+A análise busca responder às seguintes perguntas principais:
 
-Neste projeto, terei a oportunidade de aprimorar minhas habilidades em:
+- **Qual é o faturamento total de cada loja?**
+- **Quais categorias mais vendem em cada unidade?**
+- **Como se comparam as avaliações médias entre as lojas?**
+- **Quais produtos têm melhor e pior desempenho em vendas?**
+- **Existe diferença no frete médio cobrado por cada loja?**
 
-* **Manipulação de Dados:** Carregar e manipular conjuntos de dados (arquivos CSV) utilizando a biblioteca **Pandas**.
-* **Visualização de Dados:** Criar visualizações informativas e claras usando a biblioteca **Matplotlib**.
-* **Análise de Métricas:** Avaliar métricas de negócios essenciais, como faturamento total, desempenho por categoria, avaliações de clientes e eficiência de vendas.
+Essa visão integrada suporta decisões de planejamento, estoque, precificação e estratégias de marketing.
 
-## 📋 Requisitos do Projeto
+---
 
-Para cumprir o objetivo, seguirei as seguintes etapas:
+## 📁 Estrutura do Projeto
 
-### 1. Análise dos Dados das Lojas
+- **AluraStoreBrasil.ipynb** — Notebook principal com toda a análise  
+- **Relatoria da Venda da Loja.pdf** — Relatório fornecido como anexo  
+- **README.md** — Documento explicativo  
+- **/dados** — (se aplicável) Bases carregadas via URLs  
 
-Eu deverei analisar e processar as informações de cada loja, incluindo:
+---
 
-* **Faturamento Total:** Qual loja gera mais receita?
-* **Categorias Mais Vendidas:** Quais produtos são o motor de cada loja?
-* **Avaliações dos Clientes:** Qual o nível de satisfação (notas/scores) dos clientes em cada unidade?
-* **Produtos Mais Vendidos:** Quais itens específicos se destacam?
-* **Frete Médio:** Qual o custo médio de frete por loja (indicador de eficiência logística)?
+## 📈 Principais Análises, Gráficos e Insights
 
-### 2. Criação de Gráficos para Visualização
+### **1. Faturamento por Loja**
+Cálculo da soma total dos preços em cada base de dados para identificar qual loja apresenta maior faturamento.  
+**Insight:** há diferenças significativas de desempenho entre as lojas.
 
-É fundamental que eu apresente os resultados de forma clara e visual. Para isso:
+---
 
-* **Selecionei e implementarei 3 tipos de gráficos diferentes** (por exemplo: gráfico de barras para frete médio por loja, gráfico de pizza para faturamento por loja, gráfico de colunas para média de avaliação das lojas).
+### **2. Vendas por Categoria**
+Agrupamento por **Categoria do Produto**, destacando quais segmentos mais geram vendas.  
+Categorias analisadas incluem: eletrodomésticos, móveis, instrumentos musicais, utilidades domésticas, livros, esporte e lazer.  
+**Insight:** algumas lojas apresentam especialização em categorias específicas.
 
+---
 
-### 3. Apresentação da Recomendação Final
+### **3. Avaliação Média das Lojas**
+Cálculo da média de `Avaliação da compra` por loja.  
+**Insight:** variações na satisfação do cliente podem indicar oportunidades de melhoria no atendimento e logística.
 
-Após concluir todas as análises e gerar as visualizações, eu finalizarei o projeto com:
+---
 
-* Um texto conclusivo e formal explicando **qual loja o Senhor João deve vender**.
-* A justificativa completa para a minha recomendação, **baseada estritamente nos dados e métricas analisadas** nas etapas anteriores.
+### **4. Produtos Mais e Menos Vendidos**
+Ranking dos **5 produtos mais vendidos** e **5 menos vendidos** de cada loja.  
+**Insight:** produtos de alto giro se repetem entre lojas; itens com baixo desempenho podem exigir revisão de estoque.
+
+---
+
+### **5. Frete Médio por Loja**
+Cálculo da média dos valores de frete por unidade.  
+**Insight:** diferenças logísticas podem afetar margem e experiência do cliente.
+
+---
+
+### **6. Exemplos de Gráficos Gerados**
+O notebook inclui visualizações como:
+
+- Gráfico de barras de faturamento por loja  
+- Comparação das avaliações médias  
+- Gráficos de frete médio  
+- Faturamento total consolidado  
+
+Essas visualizações tornam os insights mais claros e comparáveis.
+
+---
+
+## ▶️ Instruções para Executar o Notebook
+
+### **1. Clonar o repositório**
+```bash
+git clone https://github.com/seuusuario/seurepositorio.git
+cd seurepositorio
