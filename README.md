@@ -32,10 +32,7 @@ Eu deverei analisar e processar as informações de cada loja, incluindo:
 
 É fundamental que eu apresente os resultados de forma clara e visual. Para isso:
 
-* **Selecionei e implementarei, no mínimo, 3 tipos de gráficos diferentes** (por exemplo: gráficos de barras para faturamento, gráficos de pizza para distribuição de categorias, gráficos de dispersão para frete vs. avaliação, etc.).
-* Os gráficos devem ser escolhidos para **apresentar os resultados de maneira mais informativa possível**. 
-
-[Image of Bar Chart Pie Chart and Scatter Plot comparing data]
+* **Selecionei e implementarei 3 tipos de gráficos diferentes** (por exemplo: gráfico de barras para frete médio por loja, gráfico de pizza para faturamento por loja, gráfico de colunas para média de avaliação das lojas).
 
 
 ### 3. Apresentação da Recomendação Final
